@@ -76,27 +76,27 @@ function displayCountryDetails(country) {
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <i class="fa-solid fa-earth-oceania"></i><span class="fw-bold"> ${region}:</span> bölge
+                <i class="fa-solid fa-earth-oceania"></i><span class="fw-bold">Bölge:</span>${region}
               </li>
               <li class="list-group-item">
                 <i class="fas fa-lg fa-landmark"></i>
-                <span class="fw-bold"> ${capital}:</span> başkent
+                <span class="fw-bold">Başkent:</span>${capital}
               </li>
               <li class="list-group-item">
                 <i class="fas fa-lg fa-comments"></i>
-                <span class="fw-bold"> ${languages}:</span> diller
+                <span class="fw-bold"> Dil:</span> ${languages}
               </li>
               <li class="list-group-item">
                 <i class="fas fa-lg fa-money-bill-wave"></i>
-                <span class="fw-bold"> ${currencies}:</span> para birimi ve simgesi
+                <span class="fw-bold">Para birimi ve simgesi:</span>${currencies}
               </li>
               <li class="list-group-item">
               <i class="fa-solid fa-people-group"></i>
-              <span class="fw-bold"> ${population}:</span> nüfus bilgisi
+              <span class="fw-bold"> Nüfus bilgisi:</span> ${population}
             </li>
               <li class="list-group-item">
               <i class="fa-sharp fa-solid fa-road-barrier"></i>
-              <span class="fw-bold"> ${borders}:</span> komşular
+              <span class="fw-bold">Komşular:</span>${borders} 
             </li>
             <li class="list-group-item">
               <i class="fa-solid fa-map-location-dot"></i><span class="fw-bold"> Harita: </span><a href="${maps}" target='_blank'> Go to Google Maps</a> 
