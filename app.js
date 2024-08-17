@@ -36,6 +36,7 @@ async function fetchCountries() {
                             searchInput.value = country.name.common;
                             searchDiv.style.display = 'none';
                             searchDiv.innerHTML = ""; 
+                           
                             displayCountryDetails(country);
                         });
                         searchDiv.appendChild(countryDiv);
